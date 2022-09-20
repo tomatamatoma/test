@@ -4,3 +4,6 @@ let con = can.getContext("2d");
 can.width = 800;
 can.height = 500;
 can.style.backgroundColor = "blue";
+
+con.fillStyle = "red";
+con.fillRect(20,20,20,20);
