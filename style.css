@@ -9,3 +9,7 @@ main {
 footer {
     background-color: crimson;
 }
+
+canvas {
+    margin: 10px;
+}
