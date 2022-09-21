@@ -7,3 +7,10 @@ can.style.backgroundColor = "blue";
 
 con.fillStyle = "red";
 con.fillRect(20,20,20,20);
+
+setInterval( mainLoop, 1000/60);
+
+function mainLoop() {
+    con.fillStyle = "yellow";
+    con.fillRect(50,50,50,50);
+}
